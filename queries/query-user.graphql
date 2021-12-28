@@ -1,0 +1,6 @@
+#import "./user-fragment.graphql"
+query UserWithUsername($id: ID!) {
+  user(id: $id) {
+    ...usernameOnly
+  }
+}

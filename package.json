@@ -1,0 +1,20 @@
+{
+  "name": "graphql-codegen-issue-template",
+  "version": "1.0.0",
+  "scripts": {
+    "generate": "yarn codegen",
+    "start": "graphql-codegen --config ./codegen.yml --watch",
+    "codegen": "graphql-codegen --config ./codegen.yml"
+  },
+  "dependencies": {
+    "@graphql-codegen/add": "2.0.2",
+    "@graphql-codegen/cli": "1.20.1",
+    "@graphql-codegen/near-operation-file-preset": "^2.2.2",
+    "@graphql-codegen/typescript": "1.21.0",
+    "@graphql-codegen/typescript-operations": "1.17.14",
+    "@graphql-codegen/typescript-rtk-query": "^2.2.1",
+    "@reduxjs/toolkit": "^1.7.1",
+    "graphql": "15.5.0",
+    "graphql-request": "^3.7.0"
+  }
+}

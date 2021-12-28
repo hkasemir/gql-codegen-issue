@@ -1,0 +1,3 @@
+fragment usernameOnly on User {
+  username
+}
